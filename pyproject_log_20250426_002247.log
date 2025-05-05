@@ -1,0 +1,33 @@
+2025-04-26 00:22:47,365 - INFO - [36m
+=== Cursor Project Updater ===
+[0m
+2025-04-26 00:22:47,425 - INFO - [36mContacting OpenAI for AI-generated project information...[0m
+2025-04-26 00:22:48,672 - INFO - 
+==================================================
+2025-04-26 00:22:48,672 - INFO - PROJECT MANAGER RECEIPT
+2025-04-26 00:22:48,673 - INFO - ==================================================
+2025-04-26 00:22:48,673 - INFO - Project Name: TranscribeMaster
+2025-04-26 00:22:48,673 - INFO - Project Path: C:\Users\chris\.myAiBS\system-tools\Speech-to-Text\STT-deepgram\DG-STT-App
+2025-04-26 00:22:48,674 - INFO - Tags: STT-deepgram, speech-recognition, transcription-tool, voice-commands
+2025-04-26 00:22:48,674 - INFO - Added to Project Manager: 2025-04-26 00:22:48
+2025-04-26 00:22:48,674 - INFO - 
+AI GENERATED INFORMATION
+2025-04-26 00:22:48,674 - INFO - --------------------------------------------------
+2025-04-26 00:22:48,674 - INFO - Tags: speech-recognition, transcription-tool, voice-commands
+2025-04-26 00:22:48,675 - INFO - App Name: TranscribeMaster (Used as project name)
+2025-04-26 00:22:48,675 - INFO - App Description: TranscribeMaster is an application that captures and transcribes speech in real-time using voice commands.
+2025-04-26 00:22:48,675 - INFO - 
+AI TAG GENERATION DETAILS
+2025-04-26 00:22:48,676 - INFO - --------------------------------------------------
+2025-04-26 00:22:48,676 - INFO - Model: gpt-4o-mini-2024-07-18
+2025-04-26 00:22:48,676 - INFO - Raw Response: ```json
+{
+  "tags": ["Speech Recognition", "Transcription Tool", "Voice Commands"],
+  "app_name": "TranscribeMaster",
+  "app_description": "TranscribeMaster is an application that captures and transcribes speech in real-time using voice commands."
+}
+```
+2025-04-26 00:22:48,676 - INFO - Token Usage: 1623 total tokens
+2025-04-26 00:22:48,676 - INFO - 
+Log file location: C:\Users\chris\.myAiBS\system-tools\Speech-to-Text\STT-deepgram\DG-STT-App\pyproject_log_20250426_002247.log
+2025-04-26 00:22:48,677 - INFO - ==================================================

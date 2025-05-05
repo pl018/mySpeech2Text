@@ -1,0 +1,9 @@
+customtkinter
+python-dotenv
+keyboard
+pyautogui
+deepgram-sdk
+PyAudio
+pyinstaller
+Pillow
+termcolor

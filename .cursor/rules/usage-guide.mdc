@@ -1,0 +1,32 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Speech-to-Text Application Usage Guide
+
+The application provides a floating, customizable interface for real-time speech transcription.
+
+## Running the Application
+- Run `python main.py` to start the application
+- Build a standalone executable with `python build_exe.py`
+
+## Key Features
+- **Hotkey Activation**: Press `Ctrl+Alt+\` to start/stop transcription (configurable in [config.py](mdc:config.py))
+- **UI Controls**: 
+  - Record button (center): Toggle transcription on/off
+  - Pause button (left): Pause/resume active transcription
+  - Stop button (right): Stop transcription completely
+  - Transcript button (top-right): Open the most recent transcript
+
+## Configuration
+All settings are centralized in [config.py](mdc:config.py), including:
+- UI dimensions and opacity
+- Button icons and sizes
+- Deepgram API settings
+- Silence detection threshold
+
+## Transcripts
+- Transcripts are automatically saved in the `transcripts/` directory
+- Session logs are stored in the `logs/` directory
+

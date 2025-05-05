@@ -1,0 +1,24 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Speech-to-Text Application Dependencies
+
+This application relies on the following key libraries and dependencies:
+
+## Primary Dependencies
+- **CustomTkinter**: Modern UI framework for desktop applications
+- **Deepgram SDK**: Speech recognition API client
+- **PyAudio**: Audio capture and processing
+- **Keyboard**: Hotkey registration and handling
+- **PyAutoGUI**: Typing transcribed text
+
+## Build Dependencies
+- **PyInstaller**: Packaging the application as a standalone executable
+- **Pillow**: Image processing for application icons
+
+## Environment Setup
+- All dependencies are listed in [requirements.txt](mdc:requirements.txt)
+- Install with `pip install -r requirements.txt`
+- A Deepgram API key must be provided in the `.env` file
